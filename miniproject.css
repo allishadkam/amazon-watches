@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+header {
+    background-color: #232F3F;
+    text-align: center;
+}
+
+#logo {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    z-index: 999;
+}
+
+#time {
+    display: block;
+    position: absolute;
+    top: 365px;
+    left: 220px;
+    width: 100px;
+    height: 40px;
+    color: beige;
+    font-size: 1.7em;
+    z-index: 999;
+}
+
+#heart {
+    display: none;
+    color: #ca3d22;
+    font-size: 3em;
+    position: absolute;
+    top: 365px;
+    left: 250px;
+    z-index: 999;
+}
+
+#watch {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 350px;
+    height: 420px;
+    display: inline-block;
+}
+
+#section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#color-selector span {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#color-selector span:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.color1 {
+    background-color: #23211f;
+}
+
+.color2 {
+    background-color: #ca3d22;
+}
+
+.color3 {
+    background-color: #565681;
+}
+
+.color4 {
+    background-color: #e9c7be;
+}
+
+.color5 {
+    background-color: #8a5362;
+}
+
+#f-selector button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#timebtn {
+    margin-right: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#heartratebtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#buybtn {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: gold;
+    border: none;
+}
+
+#buybtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
